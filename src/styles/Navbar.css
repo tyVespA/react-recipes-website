@@ -1,0 +1,10 @@
+.navbar {
+  color: aqua;
+  text-decoration: none;
+  display: flex;
+}
+
+.navbar a {
+  color: aqua;
+  text-decoration: none;
+}
