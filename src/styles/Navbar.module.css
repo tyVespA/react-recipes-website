@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #212528;
+  height: 75px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-inline: auto;
+
+  padding-block: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.leftSide img {
+  max-width: 35px;
+}
+
+.rightSide {
+  display: flex;
+  gap: 50px;
+}
+
+#open {
+  display: flex;
+}
+
+#close {
+  display: none;
+}

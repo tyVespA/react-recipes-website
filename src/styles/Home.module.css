@@ -1,0 +1,38 @@
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  height: calc(100vh - 75px);
+
+  display: flex;
+  align-items: center;
+}
+
+.leftSide {
+  flex-basis: 55%;
+}
+
+.rightSide {
+  flex-basis: 45%;
+}
+
+.rightSide > * {
+  max-width: 60ch;
+}
+
+.rightSide h1 {
+  margin-bottom: 20px;
+}
+
+.rightSide br {
+  margin-bottom: 10px;
+}
+
+.rightSide p {
+  margin-bottom: 15px;
+}
+
+.ctaBtn {
+  border: 1px solid black;
+  padding: 7px 25px;
+  border-radius: 10px;
+}
