@@ -5,7 +5,7 @@ import styles from "../../styles/Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
-  const [openLinks, setOpenLinks] = useState(false);
+  const [openLinks, setOpenLinks] = useState(true);
 
   const toggleNavbar = () => {
     // set to hide/show only the logo for testing purposes

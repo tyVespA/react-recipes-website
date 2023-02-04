@@ -6,6 +6,7 @@ Small static website built using create-react-app.
 
 - basics of creating a website using React
 - utilizing subdirectories to keep code organized
+- utilizing css modules to scope variables
 - use of react-router-dom to link to the different pages
 - utilizing Material UI to add icons
 - changing color and size of Material UI icons

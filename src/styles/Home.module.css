@@ -1,3 +1,21 @@
+.gradient {
+  position: relative;
+}
+
+.gradient::before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.24)
+  );
+}
+
 .container {
   max-width: 1200px;
   margin-inline: auto;
@@ -8,11 +26,14 @@
 }
 
 .leftSide {
-  flex-basis: 55%;
+  flex-basis: 60%;
 }
 
 .rightSide {
-  flex-basis: 45%;
+  flex-basis: 40%;
+  color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .rightSide > * {
@@ -28,11 +49,12 @@
 }
 
 .rightSide p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .ctaBtn {
-  border: 1px solid black;
+  border: 1px solid white;
+  color: white;
   padding: 7px 25px;
   border-radius: 10px;
 }
