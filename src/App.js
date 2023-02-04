@@ -11,8 +11,12 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/recipes" exact element={<Recipes />} />
+          <Route path="/react-recipes-website-test" exact element={<Home />} />
+          <Route
+            path="/react-recipes-website-test/recipes"
+            exact
+            element={<Recipes />}
+          />
         </Routes>
         <Footer />
       </Router>
