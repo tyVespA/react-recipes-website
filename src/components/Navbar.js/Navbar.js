@@ -16,19 +16,19 @@ function Navbar() {
     <div className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.leftSide}>
-          <Link to="/">
+          <Link to="/react-recipes-website-test">
             <img
               src={Logo}
               alt="logo"
               id={openLinks ? styles.open : styles.close}
             />
           </Link>
-          <Link to="/">Home</Link>
-          <Link to="/recipes">Recipes</Link>
+          <Link to="/react-recipes-website-test">Home</Link>
+          <Link to="/react-recipes-website-test/recipes">Recipes</Link>
         </div>
         <div className={styles.rightSide}>
-          <Link to="/about">About</Link>
-          <Link to="/code">Code</Link>
+          <Link to="/react-recipes-website-test/about">About</Link>
+          <Link to="/react-recipes-website-test/code">Code</Link>
           <button className="nav-btn" onClick={toggleNavbar}>
             <MenuIcon style={{ color: "white" }} />
           </button>
