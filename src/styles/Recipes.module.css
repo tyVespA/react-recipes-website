@@ -1,5 +1,17 @@
+.recipes {
+  min-height: calc(100vh - 123px);
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.recipes h1 {
+  text-align: center;
+  padding-block: 20px;
+}
+
 .recipesList {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
   padding: 20px;

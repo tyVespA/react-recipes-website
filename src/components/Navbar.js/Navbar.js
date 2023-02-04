@@ -16,14 +16,14 @@ function Navbar() {
     <div className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.leftSide}>
-          <Link to="/react-recipes-website-test">
+          <Link to="/react-recipes-website-test/">
             <img
               src={Logo}
               alt="logo"
               id={openLinks ? styles.open : styles.close}
             />
           </Link>
-          <Link to="/react-recipes-website-test">Home</Link>
+          <Link to="/react-recipes-website-test/">Home</Link>
           <Link to="/react-recipes-website-test/recipes">Recipes</Link>
         </div>
         <div className={styles.rightSide}>
