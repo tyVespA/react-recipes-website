@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-recipes-website-test/static/css/main.f708a420.css",
-    "main.js": "/react-recipes-website-test/static/js/main.e5e7bcfc.js",
+    "main.js": "/react-recipes-website-test/static/js/main.1938cc4e.js",
     "static/js/787.a323dc47.chunk.js": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js",
     "static/media/testImg.jpg": "/react-recipes-website-test/static/media/testImg.bc7bda20fb40db53209e.jpg",
     "static/media/KFrHLHp3irivMjgF8eHa6GZpdK-c7KZuzR2lnp7Q2A8-1.jpg": "/react-recipes-website-test/static/media/KFrHLHp3irivMjgF8eHa6GZpdK-c7KZuzR2lnp7Q2A8-1.d7377e24ef772e3b7409.jpg",
     "static/media/logo.png": "/react-recipes-website-test/static/media/logo.bf044d2174e2d5e29e19.png",
     "index.html": "/react-recipes-website-test/index.html",
     "main.f708a420.css.map": "/react-recipes-website-test/static/css/main.f708a420.css.map",
-    "main.e5e7bcfc.js.map": "/react-recipes-website-test/static/js/main.e5e7bcfc.js.map",
+    "main.1938cc4e.js.map": "/react-recipes-website-test/static/js/main.1938cc4e.js.map",
     "787.a323dc47.chunk.js.map": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f708a420.css",
-    "static/js/main.e5e7bcfc.js"
+    "static/js/main.1938cc4e.js"
   ]
 }
