@@ -1,0 +1,23 @@
+.container {
+  padding-bottom: 80px;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.bannerImage {
+  width: 1200px;
+  height: calc(250px);
+}
+
+.creator,
+.stats {
+  border-bottom: 1px solid #585b63;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.25fr 2fr;
+}

@@ -6,6 +6,7 @@ import Recipes from "./pages/Recipes";
 import About from "./pages/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import GroundTurkeyBurrito from "./pages/recipes/GroundTurkeyBurrito";
+import { RecipesList } from "./helpers/RecipesList";
 
 function App() {
   return (
@@ -24,9 +25,19 @@ function App() {
               element={<About />}
             />
             <Route
-              path="/react-recipes-website-test/recipes/groundturkeyburrito"
+              path="/react-recipes-website-test/recipes/ground-turkey-burrito"
               element={<GroundTurkeyBurrito />}
             />
+
+            {/* this doesnt work */}
+            {RecipesList.map((route, index) => (
+              <Route
+                key={index}
+                path={`/react-recipes-website-test/recipes/${route.link}`}
+                // exact={route.exact}
+                element={route.page}
+              />
+            ))}
           </Routes>
         </div>
         <Footer />

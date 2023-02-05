@@ -29,7 +29,6 @@ function Navbar() {
           <Link to="/react-recipes-website-test/">Home</Link>
           <Link to="/react-recipes-website-test/recipes">Recipes</Link>
           <Link to="/react-recipes-website-test/about">About</Link>
-          <Link to="/react-recipes-website-test/code">Code</Link>
         </div>
         <div className={styles.searchBtn}>
           <button onClick={toggleNavbar}>

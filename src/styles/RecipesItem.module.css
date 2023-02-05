@@ -1,12 +1,17 @@
 .recipeItem {
-  border: 1px solid #dce1e74b;
+  border: 1px solid #585b63;
   max-width: 300px;
+  min-height: 434px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   /* cursor: pointer; */
   transition: all 0.2s;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
 }
 
 .recipeItem:hover {
@@ -14,35 +19,47 @@
 }
 
 .image {
-  height: 200px;
+  height: 180px;
   width: 300px;
 }
 
 .text {
-  padding: 20px 25px 15px 25px;
+  /* padding: 20px 25px 15px 25px; */
+
+  height: 253px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title {
+  padding-top: 20px;
+  padding-bottom: 15px;
   font-size: 0.9rem;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .time {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
   /* color: rgb(131, 131, 131); */
   font-size: 0.8rem;
-  margin-bottom: 15px;
 }
 
 .time > p {
   margin-top: 2px;
 }
 
+.statsContainer {
+  border-top: 1px solid grey;
+}
+
 .stats {
+  padding: 20px 25px 15px 25px;
+
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 10px;

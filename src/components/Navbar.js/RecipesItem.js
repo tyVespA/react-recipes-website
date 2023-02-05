@@ -34,50 +34,52 @@ function RecipesItem({
         <div className={styles.text}>
           <div className={styles.title}>
             <h2>{name}</h2>
+            <div className={styles.time}>
+              <AccessTimeIcon fontSize="small" />
+              <p>{time}</p>
+            </div>
           </div>
-          <div className={styles.time}>
-            <AccessTimeIcon fontSize="small" />
-            <p>{time}</p>
-          </div>
-          <div className={styles.stats}>
-            <div className={styles.statsLeftSide}>
-              <div className={styles.statsIcon}>
-                <LocalFireDepartmentOutlinedIcon fontSize="small" />
+          <div className={styles.statsContainer}>
+            <div className={styles.stats}>
+              <div className={styles.statsLeftSide}>
+                <div className={styles.statsIcon}>
+                  <LocalFireDepartmentOutlinedIcon fontSize="small" />
+                </div>
+                <p>
+                  {calories} <br />
+                  Kcal
+                </p>
               </div>
-              <p>
-                {calories} <br />
-                Kcal
-              </p>
-            </div>
-            <div className={styles.statsRightSide}>
-              <div className={styles.statsIcon}>
-                <RamenDiningIcon fontSize="small" />
+              <div className={styles.statsRightSide}>
+                <div className={styles.statsIcon}>
+                  <RamenDiningIcon fontSize="small" />
+                </div>
+                <p>
+                  {carbs} <br />
+                  carbs
+                </p>
               </div>
-              <p>
-                {carbs} <br />
-                carbs
-              </p>
-            </div>
-            <div className={styles.statsLeftSide}>
-              <div className={styles.statsIcon}>
-                <FitnessCenterIcon fontSize="small" />
+              <div className={styles.statsLeftSide}>
+                <div className={styles.statsIcon}>
+                  <FitnessCenterIcon fontSize="small" />
+                </div>
+                <p>
+                  {proteins} <br />
+                  proteins
+                </p>
               </div>
-              <p>
-                {proteins} <br />
-                proteins
-              </p>
-            </div>
-            <div className={styles.statsRightSide}>
-              <div className={styles.statsIcon}>
-                <OpacityIcon fontSize="small" />
+              <div className={styles.statsRightSide}>
+                <div className={styles.statsIcon}>
+                  <OpacityIcon fontSize="small" />
+                </div>
+                <p>
+                  {fats} <br />
+                  fats
+                </p>
               </div>
-              <p>
-                {fats} <br />
-                fats
-              </p>
+              {/* <p>{stats.carbs}</p> */}
+              {/* how to add object? */}
             </div>
-            {/* <p>{stats.carbs}</p> */}
-            {/* how to add object? */}
           </div>
         </div>
       </div>

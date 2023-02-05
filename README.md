@@ -10,3 +10,5 @@ Small static website built using create-react-app.
 - use of react-router-dom to link to the different pages
 - utilizing Material UI to add icons
 - changing color and size of Material UI icons
+- utilizing router
+- creating a dynamic route generator
