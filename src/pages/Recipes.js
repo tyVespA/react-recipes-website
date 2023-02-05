@@ -14,6 +14,7 @@ function Recipes() {
               <RecipesItem
                 key={key}
                 link={recipesItem.link}
+                page={recipesItem.page}
                 image={recipesItem.image}
                 name={recipesItem.name}
                 time={recipesItem.time}

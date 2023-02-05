@@ -3,7 +3,8 @@ import GroundTurkeyBurrito2 from "../assets/ground-turkey-burrito-2.png";
 export const RecipesList = [
   {
     name: "Ground Turkey Burrito",
-    link: "GroundTurkeyBurrito",
+    link: "groundturkeyburrito",
+    page: "GroundTurkeyBurrito",
     image: GroundTurkeyBurrito2,
     time: "15 Min",
     calories: "123",
