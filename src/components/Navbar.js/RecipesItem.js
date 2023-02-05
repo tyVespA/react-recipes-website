@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "../../styles/RecipesItem.module.css";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocalFireDepartmentOutlinedIcon from "@mui/icons-material/LocalFireDepartmentOutlined";
@@ -29,36 +30,48 @@ function RecipesItem({
       <div className={styles.text}>
         <div className={styles.title}>
           <h2>{name}</h2>
-          <div className={styles.time}>
-            <AccessTimeIcon fontSize="small" />
+        </div>
+        <div className={styles.time}>
+          <AccessTimeIcon fontSize="small" />
 
-            <p>{time}</p>
-          </div>
+          <p>{time}</p>
         </div>
         <div className={styles.stats}>
           <div className={styles.statsLeftSide}>
             <div className={styles.statsIcon}>
               <LocalFireDepartmentOutlinedIcon fontSize="small" />
             </div>
-            <p>{calories}</p>
+            <p>
+              {calories} <br />
+              Kcal
+            </p>
           </div>
           <div className={styles.statsRightSide}>
             <div className={styles.statsIcon}>
               <RamenDiningIcon fontSize="small" />
             </div>
-            <p>{carbs}</p>
+            <p>
+              {carbs} <br />
+              carbs
+            </p>
           </div>
           <div className={styles.statsLeftSide}>
             <div className={styles.statsIcon}>
               <FitnessCenterIcon fontSize="small" />
             </div>
-            <p>{proteins}</p>
+            <p>
+              {proteins} <br />
+              proteins
+            </p>
           </div>
           <div className={styles.statsRightSide}>
             <div className={styles.statsIcon}>
               <OpacityIcon fontSize="small" />
             </div>
-            <p>{fats}</p>
+            <p>
+              {fats} <br />
+              fats
+            </p>
           </div>
           {/* <p>{stats.carbs}</p> */}
           {/* how to add object? */}

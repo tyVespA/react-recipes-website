@@ -1,6 +1,11 @@
 .navbar {
-  background-color: #212528;
+  /* background-color: #212528; */
   height: 75px;
+  border-bottom: 1px solid #585b63;
+}
+
+.navbar img {
+  max-width: 35px;
 }
 
 .container {
@@ -9,28 +14,17 @@
   align-items: center;
   max-width: 1200px;
   margin-inline: auto;
-
+  font-size: 1.1rem;
   padding-block: 20px;
 }
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-}
-
-.leftSide {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.leftSide img {
-  max-width: 35px;
-}
-
-.rightSide {
+.links {
   display: flex;
   gap: 50px;
+}
+
+.searchBtn svg {
+  color: #f8f9fa;
 }
 
 #open {

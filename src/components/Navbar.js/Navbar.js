@@ -3,6 +3,7 @@ import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import styles from "../../styles/Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
+import SearchIcon from "@mui/icons-material/Search";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(true);
@@ -15,7 +16,7 @@ function Navbar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.container}>
-        <div className={styles.leftSide}>
+        <div className={styles.logo}>
           <Link to="/react-recipes-website-test/">
             <img
               src={Logo}
@@ -23,14 +24,16 @@ function Navbar() {
               id={openLinks ? styles.open : styles.close}
             />
           </Link>
+        </div>
+        <div className={styles.links}>
           <Link to="/react-recipes-website-test/">Home</Link>
           <Link to="/react-recipes-website-test/recipes">Recipes</Link>
-        </div>
-        <div className={styles.rightSide}>
           <Link to="/react-recipes-website-test/about">About</Link>
           <Link to="/react-recipes-website-test/code">Code</Link>
-          <button className="nav-btn" onClick={toggleNavbar}>
-            <MenuIcon style={{ color: "white" }} />
+        </div>
+        <div className={styles.searchBtn}>
+          <button onClick={toggleNavbar}>
+            <SearchIcon />
           </button>
         </div>
       </div>

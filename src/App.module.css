@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "GoodTimes";
+  src: url("./assets/good-times-font/GoodTimesBk-Regular.woff");
+  font-weight: 300;
+}
+
+/* @font-face {
+  font-family: "GoodTimes";
+  src: url("./assets/good-times-font/regu");
+  font-weight: 300;
+} */
+
 /*------------------------------------*\
   # CSS RESET
 \*------------------------------------*/
@@ -90,6 +102,12 @@ a {
 }
 
 body {
-  background-color: #2f3237;
-  color: #dce1e7;
+  background-color: #202124;
+  color: #f8f9fa;
+  font-family: "GoodTimes";
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
 }

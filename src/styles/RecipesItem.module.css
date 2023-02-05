@@ -23,28 +23,29 @@
 }
 
 .title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .time {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
   /* color: rgb(131, 131, 131); */
   font-size: 0.8rem;
+  margin-bottom: 15px;
 }
 
 .time > p {
-  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 .stats {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  gap: 5px;
+  gap: 10px;
 }
 
 .stats > div {
@@ -54,15 +55,14 @@
 }
 
 .stats > div > p {
-  margin-bottom: 2.5px;
-  font-size: 0.9rem;
-  /* font-weight: bold; */
+  /* margin-bottom: 2.5px; */
+  font-size: 0.8rem;
 }
 
 .statsIcon {
   background-color: #2a2b2f;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 5px;
 
   display: flex;

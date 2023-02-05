@@ -13,6 +13,7 @@ function Recipes() {
             return (
               <RecipesItem
                 key={key}
+                link={recipesItem.link}
                 image={recipesItem.image}
                 name={recipesItem.name}
                 time={recipesItem.time}
