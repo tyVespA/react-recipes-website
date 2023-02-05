@@ -5,24 +5,26 @@ import RecipesItem from "../components/Navbar.js/RecipesItem";
 
 function Recipes() {
   return (
-    <div className={styles.recipes}>
-      <h1>Recipes</h1>
-      <div className={styles.recipesList}>
-        {RecipesList.map((recipesItem, key) => {
-          return (
-            <RecipesItem
-              key={key}
-              image={recipesItem.image}
-              name={recipesItem.name}
-              time={recipesItem.time}
-              calories={recipesItem.calories}
-              carbs={recipesItem.carbs}
-              proteins={recipesItem.proteins}
-              fats={recipesItem.fats}
-              // stats={recipesItem.stats.carbs}
-            />
-          );
-        })}
+    <div className={styles.background}>
+      <div className={styles.recipes}>
+        <h1>Recipes</h1>
+        <div className={styles.recipesList}>
+          {RecipesList.map((recipesItem, key) => {
+            return (
+              <RecipesItem
+                key={key}
+                image={recipesItem.image}
+                name={recipesItem.name}
+                time={recipesItem.time}
+                calories={recipesItem.calories}
+                carbs={recipesItem.carbs}
+                proteins={recipesItem.proteins}
+                fats={recipesItem.fats}
+                // stats={recipesItem.stats.carbs}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

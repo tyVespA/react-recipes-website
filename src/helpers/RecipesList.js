@@ -4,7 +4,7 @@ export const RecipesList = [
   {
     image: Pepperoni,
     name: "Pizza",
-    time: "15min",
+    time: "15 Min",
     calories: "123 Kcal",
     carbs: "321g carbs",
     proteins: "27g proteins",
