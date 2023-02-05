@@ -14,26 +14,21 @@ function Navbar() {
 
   return (
     <div className={styles.navbar}>
-      <div className={styles.container}>
-        <div className={styles.leftSide}>
-          <Link to="/react-recipes-website-test/">
-            <img
-              src={Logo}
-              alt="logo"
-              id={openLinks ? styles.open : styles.close}
-            />
-          </Link>
-          <Link to="/react-recipes-website-test/">Home</Link>
-          <Link to="/react-recipes-website-test/recipes">Recipes</Link>
-        </div>
-        <div className={styles.rightSide}>
-          <Link to="/react-recipes-website-test/about">About</Link>
-          <Link to="/react-recipes-website-test/code">Code</Link>
-          <button className="nav-btn" onClick={toggleNavbar}>
-            <MenuIcon style={{ color: "white" }} />
-          </button>
-        </div>
-      </div>
+      <Link to="/react-recipes-website-test/">
+        <img
+          src={Logo}
+          alt="logo"
+          id={openLinks ? styles.open : styles.close}
+        />
+      </Link>
+      <Link to="/react-recipes-website-test/">Home</Link>
+      <Link to="/react-recipes-website-test/recipes">Recipes</Link>
+
+      <Link to="/react-recipes-website-test/about">About</Link>
+      <Link to="/react-recipes-website-test/code">Code</Link>
+      <button className="nav-btn" onClick={toggleNavbar}>
+        <MenuIcon style={{ color: "white" }} />
+      </button>
     </div>
   );
 }

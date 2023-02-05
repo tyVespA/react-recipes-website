@@ -1,7 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .recipes {
   min-height: calc(100vh - 123px);
-  max-width: 1200px;
-  margin-inline: auto;
+  max-width: calc(1200px);
+  margin-left: 150px;
 }
 
 .recipes h1 {

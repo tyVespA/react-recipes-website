@@ -5,7 +5,7 @@ import RecipesItem from "../components/Navbar.js/RecipesItem";
 
 function Recipes() {
   return (
-    <div className={styles.background}>
+    <div className={styles.container}>
       <div className={styles.recipes}>
         <h1>Recipes</h1>
         <div className={styles.recipesList}>
