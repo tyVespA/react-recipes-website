@@ -10,12 +10,20 @@
 
 h1 {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
-h1,
 .creator {
-  text-align: center;
+  display: flex;
+}
+
+.creator a {
+  display: inline-flex;
+  margin-inline: auto;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 25px;
 }
 
 h2 {
@@ -26,10 +34,6 @@ h2 {
 .stats {
   border-bottom: 1px solid #585b63;
   font-family: "GoodTimes";
-}
-
-.creator {
-  padding-bottom: 25px;
 }
 
 .stats {

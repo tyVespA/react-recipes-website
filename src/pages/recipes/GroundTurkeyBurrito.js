@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../styles/RecipePage.module.css";
 import { RecipesList } from "../../helpers/RecipesList";
 import Image from "../../assets/ground-turkey-burrito-2.png";
+import AuthorPfp from "../../components/AuthorPfp";
 
 function GroundTurkeyBurrito() {
   return (
@@ -17,7 +18,7 @@ function GroundTurkeyBurrito() {
       <div className={styles.container}>
         <h1>Ground Turkey Burrito</h1>
         <div className={styles.creator}>
-          <p>{RecipesList[0].creator}</p>
+          <AuthorPfp></AuthorPfp>
         </div>
         <div className={styles.stats}>
           <p>{RecipesList[0].calories} kcal</p>
