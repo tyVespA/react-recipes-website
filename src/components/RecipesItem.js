@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../../styles/RecipesItem.module.css";
+import styles from "../styles/RecipesItem.module.css";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocalFireDepartmentOutlinedIcon from "@mui/icons-material/LocalFireDepartmentOutlined";
 import OpacityIcon from "@mui/icons-material/Opacity";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import RamenDiningIcon from "@mui/icons-material/RamenDining";
-import GroundTurkeyBurrito from "../../pages/recipes/GroundTurkeyBurrito";
+import GroundTurkeyBurrito from "../pages/recipes/GroundTurkeyBurrito";
 
 function RecipesItem({
   image,

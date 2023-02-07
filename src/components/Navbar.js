@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import styles from "../../styles/Navbar.module.css";
+import styles from "../styles/Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 

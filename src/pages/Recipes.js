@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Recipes.module.css";
 import { RecipesList } from "../helpers/RecipesList";
-import RecipesItem from "../components/Navbar.js/RecipesItem";
+import RecipesItem from "../components/RecipesItem";
 
 function Recipes() {
   return (
