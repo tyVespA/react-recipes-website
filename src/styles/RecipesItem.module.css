@@ -47,6 +47,7 @@
   gap: 5px;
   /* color: rgb(131, 131, 131); */
   font-size: 0.8rem;
+  font-family: "GoodTimes";
 }
 
 .time > p {
@@ -59,6 +60,7 @@
 
 .stats {
   padding: 20px 25px 15px 25px;
+  font-family: "GoodTimes";
 
   display: grid;
   grid-template-columns: 1.2fr 1fr;

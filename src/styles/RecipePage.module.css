@@ -1,23 +1,74 @@
+.bannerImage {
+  max-width: 1200px;
+  height: 250px;
+}
+
 .container {
   padding-bottom: 80px;
+  margin-inline: 15px;
 }
 
 h1 {
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
-.bannerImage {
-  width: 1200px;
-  height: calc(250px);
+h1,
+.creator {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 200;
 }
 
 .creator,
 .stats {
   border-bottom: 1px solid #585b63;
+  font-family: "GoodTimes";
+  /* font-weight: 200; */
+}
+
+.creator {
+  padding-bottom: 25px;
+}
+
+.stats {
+  padding-block: 25px;
+  font-weight: 200;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1.25fr 2fr;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.ingredients,
+.directions {
+  font-weight: 200;
+  border-bottom: 1px solid #585b63;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.ingredients h2,
+.directions h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.ingredients li {
+  line-height: 2;
+}
+
+ul,
+ol,
+li {
+  padding-left: 17px;
+  margin-left: 0;
+}
+
+.videoDescription {
+  font-weight: 200;
+  padding-bottom: 10px;
 }

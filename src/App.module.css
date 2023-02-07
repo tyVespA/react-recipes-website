@@ -4,11 +4,35 @@
   font-weight: 300;
 }
 
-/* @font-face {
+@font-face {
   font-family: "GoodTimes";
-  src: url("./assets/good-times-font/regu");
+  src: url("./assets/good-times-font/GoodTimesLt-Regular.woff");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./assets/segoe/SegoeUI-Light.woff");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./assets/segoe/SegoeUI.woff");
   font-weight: 300;
-} */
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./assets/segoe/SegoeUI-SemiBold.woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./assets/segoe/SegoeUI-Bold.woff");
+  font-weight: 700;
+}
 
 /*------------------------------------*\
   # CSS RESET
@@ -104,6 +128,12 @@ a {
 body {
   background-color: #202124;
   color: #f8f9fa;
+  /* font-family: "GoodTimes"; */
+  font-family: "Segoe UI";
+}
+
+h1,
+h2 {
   font-family: "GoodTimes";
 }
 
