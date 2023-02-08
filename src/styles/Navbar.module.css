@@ -3,6 +3,7 @@
   height: 75px;
   border-bottom: 1px solid #585b63;
   font-family: "GoodTimes";
+  padding-inline: 20px;
 }
 
 .navbar img {
@@ -22,6 +23,14 @@
 .links {
   display: flex;
   gap: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  /* to change for slide in menu */
+  .links,
+  .searchBtn {
+    display: none;
+  }
 }
 
 .searchBtn svg {

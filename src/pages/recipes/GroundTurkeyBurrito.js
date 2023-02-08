@@ -28,10 +28,6 @@ function GroundTurkeyBurrito() {
             proteins={RecipesList[0].proteins}
             fats={RecipesList[0].fats}
           />
-          <p>{RecipesList[0].calories} kcal</p>
-          <p>{RecipesList[0].carbs} carbs</p>
-          <p>{RecipesList[0].proteins} proteins</p>
-          <p>{RecipesList[0].fats} fats</p>
         </div>
         <div className={styles.grid}>
           <div className={styles.ingredients}>

@@ -43,7 +43,7 @@ function RecipesItem({
             <div className={styles.stats}>
               <div className={styles.statsLeftSide}>
                 <div className={styles.statsIcon}>
-                  <LocalFireDepartmentOutlinedIcon fontSize="small" />
+                  <LocalFireDepartmentOutlinedIcon />
                 </div>
                 <p>
                   {calories} <br />
@@ -52,7 +52,7 @@ function RecipesItem({
               </div>
               <div className={styles.statsRightSide}>
                 <div className={styles.statsIcon}>
-                  <RamenDiningIcon fontSize="small" />
+                  <RamenDiningIcon />
                 </div>
                 <p>
                   {carbs} <br />
@@ -61,7 +61,7 @@ function RecipesItem({
               </div>
               <div className={styles.statsLeftSide}>
                 <div className={styles.statsIcon}>
-                  <FitnessCenterIcon fontSize="small" />
+                  <FitnessCenterIcon />
                 </div>
                 <p>
                   {proteins} <br />
@@ -70,7 +70,7 @@ function RecipesItem({
               </div>
               <div className={styles.statsRightSide}>
                 <div className={styles.statsIcon}>
-                  <OpacityIcon fontSize="small" />
+                  <OpacityIcon />
                 </div>
                 <p>
                   {fats} <br />

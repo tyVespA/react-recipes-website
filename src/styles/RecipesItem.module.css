@@ -83,15 +83,16 @@
   width: 35px;
   height: 35px;
   border-radius: 5px;
+  padding: -5px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.statsIcon svg {
+/* .statsIcon svg {
   color: darkgray;
-}
+} */
 
 .statsRightSide,
 .statsLeftSide {

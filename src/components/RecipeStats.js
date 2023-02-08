@@ -8,23 +8,34 @@ import RamenDiningIcon from "@mui/icons-material/RamenDining";
 function RecipeStats({ calories, carbs, proteins, fats }) {
   return (
     <div className={styles.statsContainer}>
-      <LocalFireDepartmentOutlinedIcon fontSize="small" />
-      <p>{calories} Kcal</p>
-      <RamenDiningIcon fontSize="small" />
-      <p>
-        {carbs}
-        carbs
-      </p>
-      <FitnessCenterIcon fontSize="small" />
-      <p>
-        {proteins}
-        proteins
-      </p>
-      <OpacityIcon fontSize="small" />
-      <p>
-        {fats}
-        fats
-      </p>
+      <div className={styles.calories}>
+        <LocalFireDepartmentOutlinedIcon
+          fontSize="small"
+          className={styles.statsIcon}
+        />
+        <p>
+          {calories} <br /> Kcal
+        </p>
+      </div>
+      <div className={styles.carbs}>
+        <RamenDiningIcon fontSize="small" className={styles.statsIcon} />
+        <p>
+          {carbs} <br /> carbs
+        </p>
+      </div>
+
+      <div className={styles.proteins}>
+        <FitnessCenterIcon fontSize="small" className={styles.statsIcon} />
+        <p>
+          {proteins} <br /> proteins
+        </p>
+      </div>
+      <div className={styles.fats}>
+        <OpacityIcon fontSize="small" className={styles.statsIcon} />
+        <p>
+          {fats} <br /> fats
+        </p>
+      </div>
     </div>
   );
 }

@@ -35,6 +35,11 @@ function Navbar() {
             <SearchIcon />
           </button>
         </div>
+        <div className={styles.menuBtn}>
+          <button onClick={toggleNavbar}>
+            <MenuIcon style={{ color: `#f8f9fa` }} />
+          </button>
+        </div>
       </div>
     </div>
   );
