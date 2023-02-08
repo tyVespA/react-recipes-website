@@ -3,6 +3,7 @@ import styles from "../../styles/RecipePage.module.css";
 import { RecipesList } from "../../helpers/RecipesList";
 import Image from "../../assets/ground-turkey-burrito-2.png";
 import AuthorPfp from "../../components/AuthorPfp";
+import RecipeStats from "../../components/RecipeStats";
 
 function GroundTurkeyBurrito() {
   return (
@@ -18,9 +19,15 @@ function GroundTurkeyBurrito() {
       <div className={styles.container}>
         <h1>Ground Turkey Burrito</h1>
         <div className={styles.creator}>
-          <AuthorPfp></AuthorPfp>
+          <AuthorPfp />
         </div>
         <div className={styles.stats}>
+          <RecipeStats
+            calories={RecipesList[0].calories}
+            carbs={RecipesList[0].carbs}
+            proteins={RecipesList[0].proteins}
+            fats={RecipesList[0].fats}
+          />
           <p>{RecipesList[0].calories} kcal</p>
           <p>{RecipesList[0].carbs} carbs</p>
           <p>{RecipesList[0].proteins} proteins</p>
