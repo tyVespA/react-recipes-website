@@ -1,30 +1,20 @@
 .statsContainer {
   padding: 10px;
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
   gap: 15px;
   max-width: 300px;
   margin-inline: auto;
 }
 
-.statsIcon {
-  background-color: #2a2b2f;
-  width: 36px;
-  height: 36px;
-  border-radius: 5px;
-  padding: 5px;
-}
-
 .statsContainer > div {
-  display: flex;
-  /* flex-direction: column; */
-}
-
-.calories,
-.carbs,
-.proteins,
-.fats {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.statsIcon {
+  background-color: #2a2b2f;
+  border-radius: 5px;
+  padding: 3px;
 }

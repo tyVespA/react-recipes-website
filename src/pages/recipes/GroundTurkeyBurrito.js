@@ -78,7 +78,7 @@ function GroundTurkeyBurrito() {
         <p className={styles.videoDescription}>
           Recipe from min 4.39 to min 7.18
         </p>
-        <iframe
+        {/* <iframe
           width="1200"
           height="415"
           src="https://www.youtube.com/embed/eEBRmma-TCI"
@@ -86,7 +86,7 @@ function GroundTurkeyBurrito() {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe>
+        ></iframe> */}
       </div>
     </>
   );
