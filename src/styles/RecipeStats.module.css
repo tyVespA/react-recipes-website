@@ -1,20 +1,24 @@
 .statsContainer {
   padding: 10px;
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
   gap: 15px;
-  max-width: 300px;
   margin-inline: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .statsContainer > div {
+  width: 140px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
+  padding-inline: 10px;
 }
 
 .statsIcon {
   background-color: #2a2b2f;
   border-radius: 5px;
-  padding: 3px;
+  padding: 2px;
 }

@@ -1,17 +1,12 @@
 .recipeItem {
   border: 1px solid #585b63;
-  max-width: 300px;
-  min-height: 434px;
+  max-width: 260px;
+  min-height: 414px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  /* cursor: pointer; */
   transition: all 0.2s;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 .recipeItem:hover {
@@ -24,12 +19,9 @@
 }
 
 .text {
-  /* padding: 20px 25px 15px 25px; */
-
-  height: 253px;
+  /* height: 253px; */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .title {
@@ -45,9 +37,7 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
-  /* color: rgb(131, 131, 131); */
   font-size: 0.8rem;
-  font-family: "GoodTimes";
 }
 
 .time > p {
@@ -60,7 +50,6 @@
 
 .stats {
   padding: 20px 25px 15px 25px;
-  font-family: "GoodTimes";
 
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -70,12 +59,12 @@
 .stats > div {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 10px;
 }
 
 .stats > div > p {
   /* margin-bottom: 2.5px; */
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .statsIcon {
@@ -83,16 +72,11 @@
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  /* padding: -5px; */
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* .statsIcon svg {
-  color: darkgray;
-} */
 
 .statsRightSide,
 .statsLeftSide {

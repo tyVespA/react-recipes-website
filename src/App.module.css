@@ -34,6 +34,22 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Biotif";
+  src: url("./assets/biotif/Biotif-Bold.woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Biotif";
+  src: url("./assets/biotif/Biotif-Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Biotif";
+  src: url("./assets/biotif/Biotif-Regular.woff");
+  font-weight: 400;
+}
+
 /*------------------------------------*\
   # CSS RESET
 \*------------------------------------*/
@@ -117,7 +133,6 @@ button {
   cursor: pointer;
   background-color: transparent;
   border: transparent;
-  padding: 0;
 }
 
 a {
@@ -129,15 +144,16 @@ body {
   background-color: #202124;
   color: #f8f9fa;
   /* font-family: "GoodTimes"; */
-  font-family: "Segoe UI";
+  font-family: "Biotif";
 }
 
 h1,
 h2 {
-  font-family: "GoodTimes";
+  font-family: "Biotif";
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin-inline: auto;
+  /* padding-inline: 20px; */
 }

@@ -1,8 +1,7 @@
 .navbar {
-  /* background-color: #212528; */
   height: 75px;
   border-bottom: 1px solid #585b63;
-  font-family: "GoodTimes";
+  font-weight: 400;
   padding-inline: 20px;
 }
 
@@ -25,16 +24,26 @@
   gap: 50px;
 }
 
+.searchBtn svg {
+  color: #f8f9fa;
+}
+
+.menuBtn {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   /* to change for slide in menu */
   .links,
   .searchBtn {
     display: none;
   }
-}
-
-.searchBtn svg {
-  color: #f8f9fa;
+  .searchBtn {
+    display: none;
+  }
+  .menuBtn {
+    display: block;
+  }
 }
 
 #open {

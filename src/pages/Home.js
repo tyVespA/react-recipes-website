@@ -1,32 +1,36 @@
-// rfce
-
 import React from "react";
-import styles from "../styles/Home.module.css";
-import BannerImage from "../assets/KFrHLHp3irivMjgF8eHa6GZpdK-c7KZuzR2lnp7Q2A8-1.jpg";
+import s from "../styles/Home.module.css";
+import PeaceImg from "../assets/erobb-peace.gif";
+import GigaPepe from "../assets/gigapepe.png";
+import { Link } from "react-router-dom";
+import LatestRecipe from "../assets/ground-turkey-burrito.png";
 
 function Home() {
   return (
-    <div
-      className={styles.gradient}
-      style={{
-        backgroundImage: `url(${BannerImage})`,
-        backgroundRepeat: `no-repeat`,
-        backgroundSize: `cover`,
-      }}
-    >
-      <div className={styles.container}>
-        <div className={styles.leftSide}></div>
-        <div className={styles.rightSide}>
-          <h1>Chris' recipes</h1>
-          <p>
-            Our goal is to provide nutritious and tasty food recipes to support
-            your muscle-building journey. From high-protein breakfasts to
-            post-workout snacks, we offer a variety of recipes for all levels
-            and dietary needs, with detailed nutritional information.
-            <br />
-            Join us and start cooking delicious, muscle-fueling meals today!
-          </p>
-          <button className={styles.ctaBtn}>Start Cooking</button>
+    <div className={s.hero}>
+      <div className={s.heroOne}>
+        <h1>Gym Connoisseurs</h1>
+        <img src={GigaPepe} alt="" />
+        {/* <img src={PeaceImg} alt="" style={{ width: `100%` }} /> */}
+        <p>
+          Get inspired to cook and workout with our collection of influencer
+          approved recipes. Our team has scoured the fitness community to bring
+          you the best and tastiest recipes from top fitness influencers. <br />
+          Whether you're a seasoned fitness enthusiast or just starting out, our
+          website is your go-to source for nutritious, delicious, and easy to
+          follow recipes that will help you reach your fitness goals.
+        </p>
+
+        <Link to="/react-recipes-website-test/recipes" className={s.ctaBtn}>
+          Browse our recipes
+        </Link>
+      </div>
+      <div className={s.heroTwo}>
+        <div className={`${s.card} ${s.cardOne}`}>
+          <img src={PeaceImg} alt="" />
+        </div>
+        <div className={`${s.card} ${s.cardTwo}`}>
+          <img src={LatestRecipe} alt="" />
         </div>
       </div>
     </div>

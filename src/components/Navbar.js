@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
+import GigaPepe from "../assets/gigapepe.png";
 
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(true);
@@ -19,7 +20,7 @@ function Navbar() {
         <div className={styles.logo}>
           <Link to="/react-recipes-website-test/">
             <img
-              src={Logo}
+              src={GigaPepe}
               alt="logo"
               id={openLinks ? styles.open : styles.close}
             />
@@ -31,12 +32,12 @@ function Navbar() {
           <Link to="/react-recipes-website-test/about">About</Link>
         </div>
         <div className={styles.searchBtn}>
-          <button onClick={toggleNavbar}>
+          <button onClick={() => window.alert("didnt program this yet bro")}>
             <SearchIcon />
           </button>
         </div>
         <div className={styles.menuBtn}>
-          <button onClick={toggleNavbar}>
+          <button onClick={() => window.alert("didnt program this yet bro")}>
             <MenuIcon style={{ color: `#f8f9fa` }} />
           </button>
         </div>

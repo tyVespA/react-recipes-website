@@ -1,60 +1,74 @@
-.gradient {
-  position: relative;
-}
-
-.gradient::before {
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(0, 0, 0, 0.24)
-  );
-}
-
-.container {
-  max-width: 1200px;
-  margin-inline: auto;
-  min-height: calc(100vh - 123px);
-
+.hero {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px;
+  padding-block: 70px;
+  min-height: calc(100vh - 124px);
+  /* margin-inline: 20px; */
 }
 
-.leftSide {
-  flex-basis: 60%;
+.heroOne {
+  max-width: 498px;
+  /* flex-grow: 0; */
 }
 
-.rightSide {
-  flex-basis: 40%;
-  color: white;
-  position: relative;
-  z-index: 1;
+.heroTwo {
+  flex-basis: 55%;
 }
 
-.rightSide > * {
-  max-width: 60ch;
+.heroOne img {
+  width: 300px;
+  margin-left: -40px;
+  border-radius: 15px;
+  margin-bottom: 15px;
 }
 
-.rightSide h1 {
-  margin-bottom: 20px;
+.heroOne h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  text-align: start;
 }
 
-.rightSide br {
+.heroOne br {
   margin-bottom: 10px;
 }
 
-.rightSide p {
-  margin-bottom: 20px;
+.heroOne p {
+  padding-bottom: 30px;
+  line-height: 1.7;
 }
 
-.ctaBtn {
+.heroOne a {
   border: 1px solid white;
   color: white;
-  padding: 7px 25px;
+  padding: 10px 30px;
   border-radius: 10px;
+}
+
+.heroTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card {
+  align-self: flex-end;
+  max-width: 498px;
+  max-height: 244px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.cardOne {
+}
+
+.cardTwo {
+  text-align: center;
+}
+
+.cardTwo img {
+  display: inline-block;
+  margin-top: -25px;
+  margin-left: 00px;
 }

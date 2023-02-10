@@ -10,31 +10,23 @@ function RecipeStats({ calories, carbs, proteins, fats }) {
     <div className={styles.statsContainer}>
       <div className={styles.calories}>
         <LocalFireDepartmentOutlinedIcon
-          fontSize="large"
+          fontSize="medium"
           className={styles.statsIcon}
         />
-        <p>
-          {calories} <br /> Kcal
-        </p>
+        <p>{calories} Kcal</p>
       </div>
       <div className={styles.carbs}>
-        <RamenDiningIcon fontSize="large" className={styles.statsIcon} />
-        <p>
-          {carbs} <br /> carbs
-        </p>
+        <RamenDiningIcon fontSize="medium" className={styles.statsIcon} />
+        <p>{carbs} carbs</p>
       </div>
 
       <div className={`${styles.proteins}`}>
-        <FitnessCenterIcon fontSize="large" className={styles.statsIcon} />
-        <p>
-          {proteins} <br /> proteins
-        </p>
+        <FitnessCenterIcon fontSize="medium" className={styles.statsIcon} />
+        <p>{proteins} proteins</p>
       </div>
       <div className={styles.fats}>
-        <OpacityIcon fontSize="large" className={styles.statsIcon} />
-        <p>
-          {fats} <br /> fats
-        </p>
+        <OpacityIcon fontSize="medium" className={styles.statsIcon} />
+        <p>{fats} fats</p>
       </div>
     </div>
   );
