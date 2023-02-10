@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/react-recipes-website-test/static/css/main.5a8fed05.css",
-    "main.js": "/react-recipes-website-test/static/js/main.38093795.js",
+    "main.css": "/react-recipes-website-test/static/css/main.c7fac4e1.css",
+    "main.js": "/react-recipes-website-test/static/js/main.cf5907bc.js",
     "static/js/787.a323dc47.chunk.js": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js",
+    "static/media/erobb-peace.gif": "/react-recipes-website-test/static/media/erobb-peace.d4247ad07b07930c21af.gif",
     "static/media/ground-turkey-burrito-2.png": "/react-recipes-website-test/static/media/ground-turkey-burrito-2.5d552ef1baeb521aa3c2.png",
+    "static/media/ground-turkey-burrito.png": "/react-recipes-website-test/static/media/ground-turkey-burrito.a14d44f0fbd941a92008.png",
     "static/media/SegoeUI.woff": "/react-recipes-website-test/static/media/SegoeUI.f9d072ec3d5c7d9956d2.woff",
     "static/media/SegoeUI-Bold.woff": "/react-recipes-website-test/static/media/SegoeUI-Bold.396319bfefa14eeb05a3.woff",
+    "static/media/gigapepe.png": "/react-recipes-website-test/static/media/gigapepe.38e752abff7085f9f926.png",
     "static/media/SegoeUI-SemiBold.woff": "/react-recipes-website-test/static/media/SegoeUI-SemiBold.abaaa98155d53c0b454c.woff",
     "static/media/SegoeUI-Light.woff": "/react-recipes-website-test/static/media/SegoeUI-Light.6025459259e49a5b53de.woff",
-    "static/media/KFrHLHp3irivMjgF8eHa6GZpdK-c7KZuzR2lnp7Q2A8-1.jpg": "/react-recipes-website-test/static/media/KFrHLHp3irivMjgF8eHa6GZpdK-c7KZuzR2lnp7Q2A8-1.d7377e24ef772e3b7409.jpg",
+    "static/media/Biotif-Bold.woff": "/react-recipes-website-test/static/media/Biotif-Bold.ab51dbbd0100523834ce.woff",
+    "static/media/Biotif-Regular.woff": "/react-recipes-website-test/static/media/Biotif-Regular.50103420ba8e97f2b6f1.woff",
+    "static/media/Biotif-Medium.woff": "/react-recipes-website-test/static/media/Biotif-Medium.09144a77eb1d0ccb7331.woff",
     "static/media/logo.png": "/react-recipes-website-test/static/media/logo.bf044d2174e2d5e29e19.png",
     "static/media/GoodTimesLt-Regular.woff": "/react-recipes-website-test/static/media/GoodTimesLt-Regular.de40e5593b5050cdb29f.woff",
     "static/media/GoodTimesBk-Regular.woff": "/react-recipes-website-test/static/media/GoodTimesBk-Regular.24f8964922d52f56fb2f.woff",
     "index.html": "/react-recipes-website-test/index.html",
-    "main.5a8fed05.css.map": "/react-recipes-website-test/static/css/main.5a8fed05.css.map",
-    "main.38093795.js.map": "/react-recipes-website-test/static/js/main.38093795.js.map",
+    "main.c7fac4e1.css.map": "/react-recipes-website-test/static/css/main.c7fac4e1.css.map",
+    "main.cf5907bc.js.map": "/react-recipes-website-test/static/js/main.cf5907bc.js.map",
     "787.a323dc47.chunk.js.map": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a8fed05.css",
-    "static/js/main.38093795.js"
+    "static/css/main.c7fac4e1.css",
+    "static/js/main.cf5907bc.js"
   ]
 }
