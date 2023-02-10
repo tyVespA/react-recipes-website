@@ -27,10 +27,16 @@ function Home() {
       </div>
       <div className={s.heroTwo}>
         <div className={`${s.card} ${s.cardOne}`}>
-          <img src={PeaceImg} alt="" />
+          <Link to="/react-recipes-website-test/about">
+            <p>Learn about our philosophy</p>
+            <img src={PeaceImg} alt="" />
+          </Link>
         </div>
         <div className={`${s.card} ${s.cardTwo}`}>
-          <img src={LatestRecipe} alt="" />
+          <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
+            <p>Try the latest recipe</p>
+            <img src={LatestRecipe} alt="" />
+          </Link>
         </div>
       </div>
     </div>

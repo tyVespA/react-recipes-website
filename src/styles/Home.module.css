@@ -58,13 +58,30 @@
   max-height: 244px;
   overflow: hidden;
   border-radius: 15px;
+
+  position: relative;
+}
+
+.card p {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  /* z-index: 1; */
+}
+
+.card.cardOne p {
+  top: 15px;
 }
 
 .cardOne {
 }
 
 .cardTwo {
-  text-align: center;
+  /* text-align: center; */
+  position: relative;
 }
 
 .cardTwo img {
