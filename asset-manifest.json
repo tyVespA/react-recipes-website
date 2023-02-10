@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-recipes-website-test/static/css/main.c7fac4e1.css",
-    "main.js": "/react-recipes-website-test/static/js/main.cf5907bc.js",
+    "main.css": "/react-recipes-website-test/static/css/main.9f9d4905.css",
+    "main.js": "/react-recipes-website-test/static/js/main.28ba5c59.js",
     "static/js/787.a323dc47.chunk.js": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js",
     "static/media/erobb-peace.gif": "/react-recipes-website-test/static/media/erobb-peace.d4247ad07b07930c21af.gif",
     "static/media/ground-turkey-burrito-2.png": "/react-recipes-website-test/static/media/ground-turkey-burrito-2.5d552ef1baeb521aa3c2.png",
@@ -18,12 +18,12 @@
     "static/media/GoodTimesLt-Regular.woff": "/react-recipes-website-test/static/media/GoodTimesLt-Regular.de40e5593b5050cdb29f.woff",
     "static/media/GoodTimesBk-Regular.woff": "/react-recipes-website-test/static/media/GoodTimesBk-Regular.24f8964922d52f56fb2f.woff",
     "index.html": "/react-recipes-website-test/index.html",
-    "main.c7fac4e1.css.map": "/react-recipes-website-test/static/css/main.c7fac4e1.css.map",
-    "main.cf5907bc.js.map": "/react-recipes-website-test/static/js/main.cf5907bc.js.map",
+    "main.9f9d4905.css.map": "/react-recipes-website-test/static/css/main.9f9d4905.css.map",
+    "main.28ba5c59.js.map": "/react-recipes-website-test/static/js/main.28ba5c59.js.map",
     "787.a323dc47.chunk.js.map": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7fac4e1.css",
-    "static/js/main.cf5907bc.js"
+    "static/css/main.9f9d4905.css",
+    "static/js/main.28ba5c59.js"
   ]
 }
