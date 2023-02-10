@@ -12,3 +12,14 @@ Small static website built using create-react-app.
 - changing color and size of Material UI icons
 - utilizing router
 - creating a dynamic route generator
+
+## TODO:
+
+- mobile menu
+- hover effects
+- search filter
+
+### (hard)
+
+- ability to comment
+- ability to attach image
