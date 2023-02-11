@@ -6,12 +6,12 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <p>
-        Made for fun by{" "}
+        Made by{" "}
         <a href="https://github.com/tyVespA" target="_blank" rel="noreferrer">
           TyVespA{" "}
         </a>
         <a href="https://github.com/tyVespA" target="_blank" rel="noreferrer">
-          <GitHubIcon style={{ color: "white" }} />
+          <GitHubIcon className={styles.githubLogo} />
         </a>
       </p>
     </div>

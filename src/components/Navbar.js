@@ -32,12 +32,12 @@ function Navbar() {
           <Link to="/react-recipes-website-test/about">About</Link>
         </div>
         <div className={styles.searchBtn}>
-          <button onClick={() => window.alert("didnt program this yet bro")}>
+          <button onClick={() => window.alert("lol")}>
             <SearchIcon />
           </button>
         </div>
         <div className={styles.menuBtn}>
-          <button onClick={() => window.alert("didnt program this yet bro")}>
+          <button onClick={() => window.alert("lol")}>
             <MenuIcon style={{ color: `#f8f9fa` }} />
           </button>
         </div>

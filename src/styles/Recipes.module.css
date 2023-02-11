@@ -5,13 +5,14 @@
 .recipes h1 {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+  font-size: 2.5rem;
 }
 
 .recipesList {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 47px;
   justify-content: center;
   padding-inline: 20px;
 }

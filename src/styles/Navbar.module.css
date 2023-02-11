@@ -24,6 +24,26 @@
   gap: 50px;
 }
 
+.links a {
+  position: relative;
+}
+
+.links a::before {
+  position: absolute;
+  content: "";
+  right: -5px;
+  bottom: -10px;
+  left: -5px;
+  border: 1px solid white;
+  transform: scale(0);
+  /* transform-origin: left; */
+  transition: all 0.2s;
+}
+
+.links a:hover::before {
+  transform: scale(1);
+}
+
 .searchBtn svg {
   color: #f8f9fa;
 }

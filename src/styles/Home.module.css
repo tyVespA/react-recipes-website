@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
+
   gap: 50px;
   padding: 20px;
   padding-block: 70px;
@@ -9,12 +10,13 @@
 }
 
 .heroOne {
-  max-width: 498px;
+  /* max-width: 498px; */
   /* flex-grow: 0; */
+  flex-basis: 50%;
 }
 
 .heroTwo {
-  flex-basis: 55%;
+  flex-basis: 50%;
 }
 
 .heroOne img {
@@ -26,7 +28,7 @@
 
 .heroOne h1 {
   font-size: 3.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: start;
 }
 
@@ -35,57 +37,70 @@
 }
 
 .heroOne p {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   line-height: 1.7;
+  padding-bottom: 10px;
+}
+
+.lastP {
+  margin-bottom: 25px;
 }
 
 .heroOne a {
   border: 1px solid white;
-  color: white;
+  /* color: white; */
   padding: 10px 30px;
   border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.heroOne a:hover {
+  background-color: white;
+  color: #202124;
 }
 
 .heroTwo {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 
 .card {
   align-self: flex-end;
-  max-width: 498px;
-  max-height: 244px;
+  width: 498px;
+  height: 244px;
   overflow: hidden;
-  border-radius: 15px;
-
+  border-radius: 10px;
   position: relative;
+  /* z-index: 5; */
+  outline: 2px solid #202124;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  outline: 2px solid #f8f9fa;
 }
 
 .card p {
   position: absolute;
-  bottom: 10px;
-  left: 15px;
-  color: black;
-  font-weight: 600;
-  font-size: 1.1rem;
-  /* z-index: 1; */
+  bottom: 20px;
+  left: 25px;
+  font-size: 1.3rem;
+  z-index: 1;
 }
 
-.card.cardOne p {
-  top: 15px;
-}
-
-.cardOne {
+.cardOne img {
+  filter: brightness(0.8);
 }
 
 .cardTwo {
-  /* text-align: center; */
   position: relative;
 }
 
 .cardTwo img {
   display: inline-block;
-  margin-top: -25px;
+  height: 244px;
   margin-left: 00px;
 }

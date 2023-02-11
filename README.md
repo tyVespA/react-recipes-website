@@ -15,11 +15,14 @@ Small static website built using create-react-app.
 
 ## TODO:
 
+<!-- - stretch 2nd image in home -->
+<!-- - hover effects -->
+
 - mobile menu
-- hover effects
-- search filter
+- add light mode switch
 
 ### (hard)
 
+- search filter
 - ability to comment
 - ability to attach image
