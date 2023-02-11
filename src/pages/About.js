@@ -5,6 +5,7 @@ import PepeLift from "../assets/pepeLift.png";
 function About() {
   return (
     <div className={s.aboutContainer}>
+      <h1>About us</h1>
       <p>
         Welcome to Gym Gourmet, your source for the best and tastiest recipes
         from top gym influencers. We believe that eating healthy and staying fit

@@ -78,6 +78,9 @@
   .heroOne {
     max-width: 55ch;
   }
+  .heroTwo {
+    padding-bottom: 20px;
+  }
   .heroTwo a {
     align-self: center;
   }
