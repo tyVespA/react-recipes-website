@@ -19,6 +19,8 @@ Small static website built using create-react-app.
 <!-- - hover effects -->
 
 - mobile menu
+- mobile view
+- add content
 - add light mode switch
 
 ### (hard)

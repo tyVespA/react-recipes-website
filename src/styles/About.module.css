@@ -1,0 +1,28 @@
+.aboutContainer {
+  padding-inline: 20px;
+  padding-top: 50px;
+  max-width: 65ch;
+  margin-inline: auto;
+  text-align: center;
+
+  line-height: 1.6;
+  position: relative;
+  min-height: calc(100vh - 124px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContainer p {
+  margin-bottom: 20px;
+}
+
+.aboutContainer img {
+  width: 60%;
+  margin-top: auto;
+  margin-inline: auto;
+  /* position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-55%); */
+}

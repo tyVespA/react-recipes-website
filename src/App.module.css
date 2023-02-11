@@ -154,6 +154,8 @@ h2 {
 
 .container {
   max-width: 1240px;
+  /* padding-inline: 20px; */
   margin-inline: auto;
+  min-height: calc(100vh - 124px);
   /* padding-inline: 20px; */
 }
