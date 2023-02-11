@@ -3,6 +3,7 @@
   border-bottom: 1px solid #585b63;
   font-weight: 400;
   padding-inline: 20px;
+  position: relative;
 }
 
 .navbar img {
@@ -48,7 +49,8 @@
   color: #f8f9fa;
 }
 
-.menuBtn {
+.menuBtn,
+.closeMenuBtn {
   display: none;
 }
 
@@ -56,7 +58,20 @@
   /* to change for slide in menu */
   .links,
   .searchBtn {
-    display: none;
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+    /* right: 0; */
+  }
+  .links {
+    width: calc(100vw);
+    height: 100vh;
+    background-color: #202124;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    transform: translateX(150%);
+    transition: all 0.2s;
   }
   .searchBtn {
     display: none;
@@ -64,12 +79,16 @@
   .menuBtn {
     display: block;
   }
-}
-
-#open {
-  display: flex;
-}
-
-#close {
-  display: none;
+  .closeMenuBtn {
+    display: block;
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+  }
+  #open {
+    transform: translateX(-20px);
+  }
+  #close {
+    transform: translateX(150%);
+  }
 }
