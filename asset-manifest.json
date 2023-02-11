@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-recipes-website-test/static/css/main.7c3e8203.css",
+    "main.css": "/react-recipes-website-test/static/css/main.fa8d29bc.css",
     "main.js": "/react-recipes-website-test/static/js/main.09449fcc.js",
     "static/js/787.a323dc47.chunk.js": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js",
     "static/media/erobb-peace.gif": "/react-recipes-website-test/static/media/erobb-peace.d4247ad07b07930c21af.gif",
@@ -19,12 +19,12 @@
     "static/media/GoodTimesLt-Regular.woff": "/react-recipes-website-test/static/media/GoodTimesLt-Regular.de40e5593b5050cdb29f.woff",
     "static/media/GoodTimesBk-Regular.woff": "/react-recipes-website-test/static/media/GoodTimesBk-Regular.24f8964922d52f56fb2f.woff",
     "index.html": "/react-recipes-website-test/index.html",
-    "main.7c3e8203.css.map": "/react-recipes-website-test/static/css/main.7c3e8203.css.map",
+    "main.fa8d29bc.css.map": "/react-recipes-website-test/static/css/main.fa8d29bc.css.map",
     "main.09449fcc.js.map": "/react-recipes-website-test/static/js/main.09449fcc.js.map",
     "787.a323dc47.chunk.js.map": "/react-recipes-website-test/static/js/787.a323dc47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3e8203.css",
+    "static/css/main.fa8d29bc.css",
     "static/js/main.09449fcc.js"
   ]
 }
