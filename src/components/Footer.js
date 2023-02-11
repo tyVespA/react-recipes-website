@@ -10,9 +10,11 @@ function Footer() {
         <a href="https://github.com/tyVespA" target="_blank" rel="noreferrer">
           TyVespA{" "}
         </a>
-        <a href="https://github.com/tyVespA" target="_blank" rel="noreferrer">
-          <GitHubIcon className={styles.githubLogo} />
-        </a>
+        <div className={styles.githubLogo}>
+          <a href="https://github.com/tyVespA" target="_blank" rel="noreferrer">
+            <GitHubIcon />
+          </a>
+        </div>
       </p>
     </div>
   );

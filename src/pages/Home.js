@@ -4,6 +4,7 @@ import PeaceImg from "../assets/erobb-peace.gif";
 import GigaPepe from "../assets/gigapepe.png";
 import { Link } from "react-router-dom";
 import LatestRecipe from "../assets/ground-turkey-burrito-home.jpg";
+import HomepageCard from "../components/HomepageCard";
 
 function Home() {
   return (
@@ -31,18 +32,31 @@ function Home() {
         </Link>
       </div>
       <div className={s.heroTwo}>
-        <div className={`${s.card} ${s.cardOne}`}>
+        {/* <div className={`${s.card} ${s.cardOne}`}>
           <Link to="/react-recipes-website-test/about">
             <p>Learn about our philosophy</p>
             <img src={PeaceImg} alt="" />
           </Link>
-        </div>
-        <div className={`${s.card} ${s.cardTwo}`}>
+        </div> */}
+        {/* <div className={`${s.card} ${s.cardTwo}`}>
           <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
             <p>Try the latest recipe</p>
             <img src={LatestRecipe} alt="" />
           </Link>
-        </div>
+        </div> */}
+        <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
+          <HomepageCard
+            children={"Learn about our philosophy"}
+            image={PeaceImg}
+            brightnessValue={0.8}
+          />
+        </Link>
+        <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
+          <HomepageCard
+            children={"Try the latest recipe"}
+            image={LatestRecipe}
+          />
+        </Link>
       </div>
     </div>
   );

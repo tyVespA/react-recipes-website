@@ -1,0 +1,24 @@
+.card {
+  align-self: flex-end;
+  max-width: 498px;
+  max-height: 244px;
+  /* aspect-ratio: 16 / 9; */
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  outline: 2px solid #202124;
+  transition: all 0.2s;
+  /* z-index: 0; */
+}
+
+.card:hover {
+  outline: 2px solid #f8f9fa;
+}
+
+.card p {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  font-size: 1.3rem;
+  /* z-index: 2; */
+}

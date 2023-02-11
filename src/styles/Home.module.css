@@ -1,17 +1,16 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   gap: 50px;
   padding: 20px;
-  padding-block: 70px;
+  padding-block: 20px;
   min-height: calc(100vh - 124px);
   /* margin-inline: 20px; */
 }
 
 .heroOne {
-  /* max-width: 498px; */
-  /* flex-grow: 0; */
   flex-basis: 50%;
 }
 
@@ -38,6 +37,7 @@
 
 .heroOne p {
   /* padding-bottom: 30px; */
+  max-width: 50ch;
   line-height: 1.7;
   padding-bottom: 10px;
 }
@@ -67,40 +67,18 @@
   gap: 40px;
 }
 
-.card {
+.heroTwo a {
   align-self: flex-end;
-  width: 498px;
-  height: 244px;
-  overflow: hidden;
-  border-radius: 10px;
-  position: relative;
-  /* z-index: 5; */
-  outline: 2px solid #202124;
-  transition: all 0.2s;
 }
 
-.card:hover {
-  outline: 2px solid #f8f9fa;
-}
-
-.card p {
-  position: absolute;
-  bottom: 20px;
-  left: 25px;
-  font-size: 1.3rem;
-  z-index: 1;
-}
-
-.cardOne img {
-  filter: brightness(0.8);
-}
-
-.cardTwo {
-  position: relative;
-}
-
-.cardTwo img {
-  display: inline-block;
-  height: 244px;
-  margin-left: 00px;
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+  .heroOne {
+    max-width: 55ch;
+  }
+  .heroTwo a {
+    align-self: center;
+  }
 }
