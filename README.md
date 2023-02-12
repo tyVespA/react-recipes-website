@@ -18,13 +18,15 @@ Small static website built using create-react-app.
 <!-- - stretch 2nd image in home -->
 <!-- - hover effects -->
 <!-- - mobile view -->
+<!-- - mobile menu -->
 
-- mobile menu
 - add content
 - add light mode switch
+- fix ScrollToTop
 
 ### (hard)
 
+- add language switch
 - search filter
 - ability to comment
 - ability to attach images
