@@ -1,17 +1,22 @@
+import React from "react";
+
+import Home from "./pages/Home";
 import styles from "./App.module.css";
+// import { RecipesList } from "./helpers/RecipesList";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import About from "./pages/About";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import GroundTurkeyBurrito from "./pages/recipes/GroundTurkeyBurrito";
-import { RecipesList } from "./helpers/RecipesList";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Router>
+    <Router>
+      <ScrollToTop>
         <Navbar />
         <div className={styles.container}>
           <Routes>
@@ -28,21 +33,11 @@ function App() {
               path="/react-recipes-website-test/recipes/ground-turkey-burrito"
               element={<GroundTurkeyBurrito />}
             />
-
-            {/* this doesnt work */}
-            {RecipesList.map((route, index) => (
-              <Route
-                key={index}
-                path={`/react-recipes-website-test/recipes/${route.link}`}
-                // exact={route.exact}
-                element={route.page}
-              />
-            ))}
           </Routes>
         </div>
         <Footer />
-      </Router>
-    </div>
+      </ScrollToTop>
+    </Router>
   );
 }
 
