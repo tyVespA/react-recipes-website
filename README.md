@@ -19,10 +19,11 @@ Small static website built using create-react-app.
 <!-- - hover effects -->
 <!-- - mobile view -->
 <!-- - mobile menu -->
+<!-- - fix ScrollToTop -->
 
+- lock scroll when mobile menu open
 - add content
 - add light mode switch
-- fix ScrollToTop
 
 ### (hard)
 
