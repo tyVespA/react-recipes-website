@@ -25,7 +25,7 @@ function Recipes() {
                 // stats={recipesItem.stats.carbs}
               />
             );
-          })}
+          }).reverse()}
         </div>
       </div>
     </div>

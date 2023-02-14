@@ -1,7 +1,7 @@
 .recipeItem {
   border: 1px solid #585b63;
   max-width: 265px;
-  min-height: 414px;
+  /* min-height: 445px; */
   border-radius: 15px;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -18,17 +18,11 @@
   width: 300px;
 }
 
-.text {
-  /* height: 253px; */
-  display: flex;
-  flex-direction: column;
-}
-
 .title {
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding: 20px 10px;
   font-size: 0.9rem;
   text-align: center;
+  height: 125px;
 }
 
 .time {
@@ -46,10 +40,14 @@
 
 .statsContainer {
   border-top: 1px solid grey;
+  /* height: 167px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stats {
-  padding: 20px 25px 15px 25px;
+  padding: 25px 25px 20px 25px;
 
   display: grid;
   grid-template-columns: 1.2fr 1fr;
