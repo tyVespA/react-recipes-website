@@ -8,10 +8,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Recipes from "./pages/Recipes";
 import About from "./pages/About";
-import GroundTurkeyBurrito from "./pages/recipes/GroundTurkeyBurrito";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./helpers/ScrollToTop";
+
+import GroundTurkeyBurrito from "./pages/recipes/GroundTurkeyBurrito";
+import ChickenStuffedSweetPotato from "./pages/recipes/ChickenStuffedSweetPotato";
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
             <Route
               path="/react-recipes-website-test/recipes/ground-turkey-burrito"
               element={<GroundTurkeyBurrito />}
+            />
+            <Route
+              path="/react-recipes-website-test/recipes/chicken-stuffed-sweet-potato"
+              element={<ChickenStuffedSweetPotato />}
             />
           </Routes>
         </div>

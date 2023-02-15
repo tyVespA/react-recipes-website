@@ -12,7 +12,7 @@
 .recipesList {
   display: flex;
   flex-wrap: wrap;
-  gap: 47px;
+  gap: 50px;
   justify-content: center;
   padding-inline: 20px;
 }

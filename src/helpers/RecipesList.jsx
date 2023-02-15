@@ -1,8 +1,9 @@
 import GroundTurkeyBurrito2 from "../assets/ground-turkey-burrito-2.png";
-import ChickenStuffedSweetPotato from "../assets/chicken-stuffed-sweet-potato.png";
+import ChickenStuffedSweetPotato from "../assets/chicken-stuffed-sweet-potato-2.png";
 
 export const RecipesList = [
   {
+    key: "0",
     name: "Ground Turkey Burrito",
     link: "ground-turkey-burrito",
     page: "GroundTurkeyBurrito",
@@ -15,6 +16,7 @@ export const RecipesList = [
     fats: "21g",
   },
   {
+    key: "1",
     name: "Chiken and Veggies",
     link: "chiken-and-veggies",
     page: "ChikenAndVeggies",
@@ -27,6 +29,7 @@ export const RecipesList = [
     // times: 0.58 to 4,38,
   },
   {
+    key: "2",
     name: "Ground Turkey Burrito",
     link: "GroundTurkeyBurrito",
     page: "GroundTurkeyBurrito",
@@ -39,6 +42,7 @@ export const RecipesList = [
     // stats: { carbs: "123", proteins: "123", fats: "123" },
   },
   {
+    key: "3",
     name: "Salmon Salad",
     link: "salmon-salad",
     page: "SalmonSalad",
@@ -51,6 +55,7 @@ export const RecipesList = [
     // timing 10.15 to 13.2,
   },
   {
+    key: "4",
     name: "Steak with greek salad",
     link: "salmon-salad",
     page: "SalmonSalad",
@@ -64,6 +69,7 @@ export const RecipesList = [
     // timing:
   },
   {
+    key: "5",
     name: "Baked Chicken Wings and Celery",
     link: "salmon-salad",
     page: "SalmonSalad",
@@ -76,6 +82,7 @@ export const RecipesList = [
     // timing 10.15 to 13.2,
   },
   {
+    key: "6",
     name: "Tuna Sandwich",
     link: "salmon-salad",
     page: "SalmonSalad",
@@ -88,6 +95,7 @@ export const RecipesList = [
     // timing 10.15 to 13.2,
   },
   {
+    key: "7",
     name: "Protein Pasta and Chicken",
     link: "salmon-salad",
     page: "SalmonSalad",
@@ -101,6 +109,7 @@ export const RecipesList = [
   },
 
   {
+    key: "8",
     name: "Chicken Stuffed Sweet Potato",
     link: "chicken-stuffed-sweet-potato",
     page: "ChickenStuffedSweetPotato",
