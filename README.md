@@ -27,6 +27,8 @@ Small static website built using create-react-app.
 
 ### (hard)
 
+- ability to favourite recipes and add favourites page
+- ability to sort recipes by calories, proteins..
 - add language switch
 - search filter
 - ability to comment
