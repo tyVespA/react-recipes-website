@@ -18,7 +18,7 @@ function Navbar() {
     <div className={styles.navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <Link to="/react-recipes-website-test/">
+          <Link to="/react-recipes-website/">
             <img src={GigaPepe} alt="logo" />
           </Link>
         </div>
@@ -27,13 +27,13 @@ function Navbar() {
           className={styles.links}
           id={openLinks ? styles.open : styles.close}
         >
-          <Link to="/react-recipes-website-test/" onClick={toggleNavbar}>
+          <Link to="/react-recipes-website/" onClick={toggleNavbar}>
             Home
           </Link>
-          <Link to="/react-recipes-website-test/recipes" onClick={toggleNavbar}>
+          <Link to="/react-recipes-website/recipes" onClick={toggleNavbar}>
             Recipes
           </Link>
-          <Link to="/react-recipes-website-test/about" onClick={toggleNavbar}>
+          <Link to="/react-recipes-website/about" onClick={toggleNavbar}>
             About
           </Link>
           <div className={styles.closeMenuBtn}>

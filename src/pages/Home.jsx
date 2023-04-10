@@ -27,31 +27,31 @@ function Home() {
           follow recipes that will help you reach your fitness goals.
         </p>
 
-        <Link to="/react-recipes-website-test/recipes" className={s.ctaBtn}>
+        <Link to="/react-recipes-website/recipes" className={s.ctaBtn}>
           Browse our recipes
         </Link>
       </div>
       <div className={s.heroTwo}>
         {/* <div className={`${s.card} ${s.cardOne}`}>
-          <Link to="/react-recipes-website-test/about">
+          <Link to="/react-recipes-website/about">
             <p>Learn about our philosophy</p>
             <img src={PeaceImg} alt="" />
           </Link>
         </div> */}
         {/* <div className={`${s.card} ${s.cardTwo}`}>
-          <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
+          <Link to="/react-recipes-website/recipes/ground-turkey-burrito">
             <p>Try the latest recipe</p>
             <img src={LatestRecipe} alt="" />
           </Link>
         </div> */}
-        <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
+        <Link to="/react-recipes-website/recipes/ground-turkey-burrito">
           <HomepageCard
             children={"Learn about our philosophy"}
             image={PeaceImg}
             brightnessValue={0.8}
           />
         </Link>
-        <Link to="/react-recipes-website-test/recipes/ground-turkey-burrito">
+        <Link to="/react-recipes-website/recipes/ground-turkey-burrito">
           <HomepageCard
             children={"Try the latest recipe"}
             image={LatestRecipe}

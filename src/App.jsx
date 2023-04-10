@@ -22,21 +22,18 @@ function App() {
         <Navbar />
         <div className={styles.container}>
           <Routes>
-            <Route path="/react-recipes-website-test/" element={<Home />} />
+            <Route path="/react-recipes-website/" element={<Home />} />
             <Route
-              path="/react-recipes-website-test/recipes"
+              path="/react-recipes-website/recipes"
               element={<Recipes />}
             />
+            <Route path="/react-recipes-website/about" element={<About />} />
             <Route
-              path="/react-recipes-website-test/about"
-              element={<About />}
-            />
-            <Route
-              path="/react-recipes-website-test/recipes/ground-turkey-burrito"
+              path="/react-recipes-website/recipes/ground-turkey-burrito"
               element={<GroundTurkeyBurrito />}
             />
             <Route
-              path="/react-recipes-website-test/recipes/chicken-stuffed-sweet-potato"
+              path="/react-recipes-website/recipes/chicken-stuffed-sweet-potato"
               element={<ChickenStuffedSweetPotato />}
             />
           </Routes>
