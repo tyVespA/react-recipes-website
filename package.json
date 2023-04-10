@@ -1,7 +1,7 @@
 {
-  "name": "react-restaurant-test",
+  "name": "react-restaurant",
   "version": "0.1.0",
-  "homepage": "https://tyVespA.github.io/react-recipes-website-test",
+  "homepage": "https://tyVespA.github.io/react-recipes-website",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
